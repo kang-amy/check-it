@@ -1,0 +1,83 @@
+
+.main {
+  text-align: center;
+  background-color: whitesmoke;
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.title {
+  padding-top: 100px + 10vmin;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 20px;
+  display: flex-column;
+  justify-content: center;
+}
+
+.title-header {
+  font-size: 25px;
+}
+
+.todo-container {
+  display: flex-column;
+  justify-content: center;
+  margin: auto;
+}
+
+.todo-single {
+  background-color: #f7f7f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 550px;
+  width: 60vh;
+  border-style:groove;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform .2s;
+}
+
+.todo-single:hover {
+  transform: scale(1.02);
+}
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+}
+
+.text-link {
+  color: black;
+  text-decoration: none;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: .0625em;
+}
+
+/* CSS */
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:focus {
+  box-shadow: 0px 0.5px 1px rgba(141, 135, 135, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
